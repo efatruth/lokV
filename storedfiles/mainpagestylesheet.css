@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar');
+
+body{
+  background-color: #D9E9FF; /* FBD3AE */
+}
+
+header{
+  background-color: #99B1D1; /* F7C9DB, AFD5C9 */
+  position: fixed;
+  width:100%;
+  top:0;
+  font-family:Eczar;
+}
+
+section{
+  margin-top:4em;
+}
+
+div{
+  position: fixed;
+  left:600px;
+  text-align: center;
+  font-family: Eczar;
+  color:#99B1D1;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+  font-family:Eczar;
+}
+
+#enlarge{
+  font-size: 1.5em;
+}
+
+.box1{
+  position: fixed;
+  background-color:#99B1D1;
+  padding:5em;
+  border-radius: 100%;
+  float:left;
+  top:400px;
+  left:33%;
+  transition:1s;
+  animation: appearleft 3s;
+}
+
+.box2{
+  position: fixed;
+  background-color:#99B1D1;
+  padding:5em;
+  border-radius: 100%;
+  top:400px;
+  left:50%;
+  transition:1s;
+  animation: appearright 3s;
+}
+
+
+.box1:hover, .box2:hover{
+  background-color:#9d99d1;
+  color:white;
+}
+
+.navigation ul {
+  font: bold 11px "Arial"  margin: 0;
+  padding: 0;
+}
+.navigation li {
+  display: inline-block;
+  margin-top:6px;
+}
+.navigation a {
+  border-right: 1px solid rgba(0, 0, 0, .3);
+  color: #fff;
+  padding: 12px 3em;
+  text-decoration: none;
+}
+.navigation a:hover {
+  color:#F9F5C6;
+}
+.navigation li:first-child a {
+  border-radius: 4px 0 0 4px;
+}
+.navigation li:last-child a {
+  border-right: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.h2change{
+  color:white; /* F9F5C6 */
+  padding-left:2em;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+*,
+*:before,
+*:after {
+ -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+
+@keyframes appearleft{
+  0% {left:-30%;}
+  100% {left:33%;}
+}
+
+@keyframes appearright{
+  0%{left:130%;}
+  100% {left:50%;}
+}

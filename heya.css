@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar');
+
+header{
+  background-color: #343434;
+  font-family:Eczar;
+}
+
+.section1{
+  background-image: url("thisisit.jpg");
+  color:white;
+  text-align:center;
+  font-family:Eczar;
+  padding-bottom:25em;
+  padding-top:5em;
+}
+
+.section2{
+  background-color:#232323;
+  padding-top:1em;
+  text-align:center;
+  font-family:Eczar;
+  color:white;
+  padding-bottom:1em;
+}
+
+.h2change{
+  color:#d3d3d3;
+  padding-left:2em;
+}
+
+.bigger {
+  font-size: 2.5em;
+}
+
+.big{
+  font-size: 120%;
+}
+
+.radius{
+  border-radius: 100%;
+  border:2px solid black;
+}
+
+
+.cage{
+  padding-top:10em;
+}
+
+.smallcage{
+  padding-bottom:5em;
+}
+
+
+.check{
+  background-color: red;
+}
+
+.navigation ul {
+  font: bold 11px "Arial"  margin: 0;
+  padding: 0;
+}
+.navigation li {
+  display: inline-block;
+  margin-top:6px;
+}
+.navigation a {
+  background: #343434;
+  border-right: 1px solid rgba(0, 0, 0, .3);
+  color: #fff;
+  padding: 12px 3em;
+  text-decoration: none;
+}
+.navigation a:hover {
+  background: #343434;
+  color:#1E90FF;
+}
+.navigation li:first-child a {
+  border-radius: 4px 0 0 4px;
+}
+.navigation li:last-child a {
+  border-right: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.space {
+  margin-top:1em;
+}
+
+/*
+ a {
+  margin:1em;
+  padding:4em;
+}
+
+nav{
+  padding:1em;
+}
+
+*/
+
+.middle{
+  text-align:center;
+}
+
+.col1-2{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  background-color: red;
+}
+
+.col1-4{
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.flotV {
+  float: left;
+}
+
+.flotH {
+  float: right;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
